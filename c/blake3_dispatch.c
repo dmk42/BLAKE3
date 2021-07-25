@@ -272,5 +272,5 @@ size_t blake3_simd_degree(void) {
 #if defined(BLAKE3_USE_NEON)
   return 4;
 #endif
-  return 1;
+  return 4;
 }

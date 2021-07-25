@@ -50,7 +50,7 @@ enum blake3_flags {
 #elif defined(BLAKE3_USE_NEON)
 #define MAX_SIMD_DEGREE 4
 #else
-#define MAX_SIMD_DEGREE 1
+#define MAX_SIMD_DEGREE 4
 #endif
 
 // There are some places where we want a static size that's equal to the
